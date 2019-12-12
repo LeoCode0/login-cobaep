@@ -1,0 +1,131 @@
+.logo{
+    width: 200px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 101vh;
+}
+
+.form{
+    text-align: center;
+    padding-top: 30%;
+}
+
+.form p{
+    padding-left: 15%;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.form input{
+    background-color: #54B377;
+    width: 70%;
+    height: 25px;
+    margin: 10px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.form button{
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(19, 86, 43);
+    height: 24px;
+    width: 30%;
+    margin-left: 42%;
+    border: 0;
+    border-radius: 10px;
+}
+
+.form button:hover{
+    background-color: rgb(39, 129, 51);
+    cursor: pointer;
+}
+
+.forgot{
+    display: flex;
+    justify-content: right;
+    margin: 20px 13% 0px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.forgot:hover{
+    color: white;
+}
+
+.buttons{
+    display: grid;
+    grid-template: 50px 50px/ 40%;
+    grid-gap: 7px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.item:nth-of-type(1){
+    background-color: #54B377;
+}
+
+.item:nth-of-type(2){
+    background-color: rgb(19, 86, 43);
+    padding: 20% 0 49.5% 20%;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    margin-top: -3%;
+    font-size: 10px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: #54B377;
+        overflow: auto;
+    }
+    .hero-container{
+        display: grid;
+        margin-top: -22px;
+        grid-template-columns: 100% 0;
+    }
+
+    .logo{
+        margin-top: -211px;
+        width: 300px;
+    }
+
+    .item:nth-of-type(1){
+        align-items: center;
+    }
+
+    .item:nth-of-type(2){
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        padding-top: 0;
+    }
+}
