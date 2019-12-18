@@ -100,11 +100,7 @@ body{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 768px){
-=======
-@media only screen and (max-width: 790px){
->>>>>>> becfd50a4c93d188918b60056a33a63c502ca8d6
     body{
         background-color: #54B377;
         overflow: auto;
