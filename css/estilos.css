@@ -56,8 +56,8 @@ body{
 }
 
 .forgot{
-    display: flex;
-    justify-content: right;
+    display: block;
+    text-align: right;
     margin: 20px 13% 0px 0px;
     text-decoration: none;
     color: black;
